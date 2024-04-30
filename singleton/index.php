@@ -26,7 +26,7 @@ class Bioskop {
     }
 }
 
-// Contoh penggunaan singleton Bioskop
+
 $bioskop = Bioskop::getInstance();
-$bioskop->catatFilm('Film Avengers: Endgame dimulai.');
-$bioskop->catatFilm('Film Avengers: Endgame selesai diputar.');
+$bioskop->catatFilm('Film Avengers: Endgame dimulai<br>');
+$bioskop->catatFilm('Film Avengers: Endgame selesai diputar');
